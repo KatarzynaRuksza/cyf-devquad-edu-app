@@ -2,7 +2,7 @@ import { Pool } from "pg";
 
 //Please change the data bse url string to your local one.
 // In this case my username is ali and my password for ali is 111111 and I have a local base called cyf_ecommerce in my laptop.
-const dbUrl = process.env.DATABASE_URL || "postgres://ali:111111@localhost:5432/cyf_ecommerce";
+const dbUrl = process.env.DATABASE_URL || "postgres://shadab:222222@localhost:5432/cyf_ecommerce";
 
 const pool = new Pool({
 	connectionString: dbUrl,
