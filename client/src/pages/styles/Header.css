@@ -1,0 +1,9 @@
+.nav_bar {
+  background-color: #41424f;
+  color: blanchedalmond;
+}
+.registration {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
